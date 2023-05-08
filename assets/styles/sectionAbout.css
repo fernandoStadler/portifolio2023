@@ -1,0 +1,35 @@
+/* about */
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+    background-color: var(--dark-secondary);
+    width: 30%;
+    border-radius: 15px;
+    color: #fff;
+    text-align: justify;
+    border-left: 2px solid var(--danger);
+
+}
+
+.about h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.avatar-img {
+    display: flex;
+    justify-content: center;
+    margin: 0 25px;
+}
+
+.avatar-img img {
+    max-width: 100%;
+}
+.Certificates{
+    padding: 20px;
+}
+.Certificates li{
+    text-align: left;
+}

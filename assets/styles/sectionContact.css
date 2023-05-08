@@ -1,0 +1,75 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 50px;
+    background-color: var(--dark-secondary);
+    width: 90%;
+    color: #fff;
+    text-align: justify;
+    border-bottom: 2px solid var(--danger);
+}
+
+.figure-contact {
+    width: 50%;
+}
+
+.figure-contact img {
+    width: 100%;
+}
+
+.form {
+    width: 70%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+
+}
+
+form input {
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid var(--danger);
+    border-right: 3px solid var(--danger);
+    
+}
+
+form textarea {
+    resize: none;
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid var(--danger);
+    border-right: 3px solid var(--danger);
+}
+
+.form h3 {
+    text-align: center;
+
+}
+
+.btn-action {
+    display: flex;
+    justify-content: right;
+}
+
+.btn-action button {
+    width: 100px;
+    background: var(--success);
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn-action button:hover {
+    transition: all 0.8s;
+    background: var(--success-light);
+}

@@ -1,0 +1,94 @@
+@media(max-width:940px) {
+    main {
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .about {
+        min-width: 90vw;
+        margin: 10px 0;
+        border-left: 2px solid var(--danger);
+        border-right: 2px solid var(--danger)
+    }
+
+    .content {
+        min-width: 90vw;
+        border-left: 2px solid var(--danger);
+        border-right: 2px solid var(--danger)
+    }
+
+    .content img {
+        width: 100%;
+    }
+
+    .colegies {
+        min-width: 90vw;
+        padding: 20px;
+
+    }
+
+}
+
+
+@media(max-width:600px) {
+    main {
+        font-size: 1.5rem;
+    }
+
+
+
+    .banner {
+        text-align: center;
+    }
+
+    .social-icon a>i {
+        font-size: 2.5em;
+        padding: 10px;
+    }
+
+    .about {
+        min-width: 90vw;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .content {
+        min-width: 90vw;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .content img {
+        width: 100%;
+    }
+
+    .project-links {
+        flex-direction: column;
+
+    }
+
+    .project-links button {
+        padding: 1.3rem;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+
+    }
+
+    .colegies {
+        min-width: 90vw;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .contact {
+        display: none;
+    }
+}

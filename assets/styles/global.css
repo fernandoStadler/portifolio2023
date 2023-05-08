@@ -1,0 +1,65 @@
+ /* Global */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+ :root {
+    --dark-primary: #111111;
+    --dark-secondary: #282828;
+    --dark-light: #3c4345;
+    --main-purple:#8a2be2;
+    --danger:#ff6699;
+    --success:#015836;
+    --success-light:#009c68;
+    --menu-height: 50px;
+
+}
+
+:target {
+    scroll-margin-top: var(--menu-height); /* altura do menu */
+}
+:where(.section):is(.about,.colegies, .contact)::before {
+    content: "";
+    display: block;
+    height: var(--menu-height);
+    margin-top: calc(var(--menu-height) * -1);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+    background: var(--dark-secondary);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    max-width: 100vw;
+    min-height: 100vh;
+    padding: 25px;
+    background-color: var(--dark-primary);
+
+}
+
+
+.show{
+    margin-top: 0;
+    transition: all 0.5s;
+}
+.hidden{
+    margin-top: -300%;
+    transition: all 1.5s;
+}

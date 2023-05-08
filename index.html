@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/_imports.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="assets/img/icon.png">
+    <title>Fernando Stadler</title>
+</head>
+
+<body>
+    <nav>
+        <div class="desktop-menu">
+            <div class="desktop-logo">
+                <span>
+                    <a href="#">
+                        <i class="fa-solid fa-code"></i> Fernando Stadler
+                    </a>
+                </span>
+            </div>
+            <div class="desktop-navegation">
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#colegies">Formação acadêmica</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile -->
+    
+        <div class="mobile-menu">
+            <div class="mobile-container">
+                    <span>
+                        <a href="#">
+                            <i class="fa-solid fa-code"></i> Fernando Stadler
+                        </a>
+                    </span>
+                    <button data-toggle><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="mobile-navegation hidden" data-links>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#colegies">Formação acadêmica</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="banner">
+            <div class="img-container" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="assets/img/logo_transparente.png" alt="">
+            </div>
+            <div class="social-contact">
+                <span>Onde me encontrar</span>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="avatar-img">
+                <img src="assets/img/undraw.svg" alt="programador">
+            </div>
+            <div>
+                <h3>Um pouco sobre mim</h3>
+                <p>Sou Fernando Stadler, um profissional graduado em Análise e Desenvolvimento de Sistemas pela
+                    Universidade
+                    Cruzeiro do Sul, com 34 anos de idade. Atualmente, estou cursando um MBA em Gestão de Projetos pela
+                    USP e possuo expertise nas tecnologias HTML, CSS, JavaScript, React Js, Next Js e Node, além de
+                    conhecimentos em Scrum. Sou apaixonado pela área de desenvolvimento de software e busco oferecer
+                    soluções inovadoras e eficazes para impulsionar o sucesso de projetos tecnológicos. Estou
+                    comprometido em continuar me aprimorando e contribuir para o avanço da transformação digital das
+                    empresas.</p>
+            </div>
+            <div class="Certificates">
+                <h3>Stack</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>React Js</li>
+                    <li>Next Js</li>
+                    <li>Node JS</li>
+                    <li>Scrum</li>
+                </ul>
+                <h3>Certificações</h3>
+                <ul>
+                    <li>Fundamentos em Cibersegurança</li>
+                    <li>Scrum Foundation Professional Certificate - SFPC</li>
+                    <li>Kanban Essentials Professional Certificate - KEPC</li>
+                    <li>Scrum Fundamentals Certified</li>
+                </ul>
+                <h3>Reconhecientos</h3>
+                <ul>
+                    <li>Lifelong Learning</li>
+                </ul>
+            </div>
+        </section>
+        <section class="content" data-project>
+            <h3>Projetos</h3>
+            <!-- carregado via js -->
+        </section>
+        <section class="colegies" data-colegies id="colegies">
+            <h3>Formação acadêmica</h3>
+            <!-- carregado via js -->
+        </section>
+        <section class="contact" id="contact">
+            <div class="figure-contact">
+                <img src="assets/img/contact.svg">
+            </div>
+            <div class="form">
+                <h3>Contato</h3>
+                <form action="https://formsubmit.co/contato.fernandostadler@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_autoresponse"
+                        value="Recebemos a sua mensagem, obrigado pelo contato e em breve responderemos!">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="Nome" placeholder="Digite seu nome" required>
+                    <label for="email">e-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Seu E-mail" required>
+                    <textarea id="" cols="30" rows="10" name="Mensagem" placeholder="Sua mensagem aqui"
+                        required></textarea>
+                    <div class="btn-action">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Fernando Stadler - 2023</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="assets/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/67f504bb87.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

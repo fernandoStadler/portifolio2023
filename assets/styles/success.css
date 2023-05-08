@@ -1,0 +1,20 @@
+.success{
+    display: flex;
+    max-width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.success button{
+    background: var(--success);
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.success img {
+    max-width: 450px;
+    padding: 50px;
+}
