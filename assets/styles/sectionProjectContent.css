@@ -5,10 +5,10 @@
     gap: 25px;
     padding: 15px;
     background-color: var(--dark-secondary);
-    max-width: 60%;
     min-height: 100vh;
     border-radius: 15px;
     color: #fff;
+    border-left: 2px solid var(--danger);
     border-right: 2px solid var(--danger)
 }
 .content-project{

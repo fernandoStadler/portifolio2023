@@ -7,7 +7,9 @@
     width: 90%;
     color: #fff;
     text-align: justify;
-    border-bottom: 2px solid var(--danger);
+    border: 2px solid var(--danger);
+    border-radius: 4px;
+    border-top:none;
 }
 
 .figure-contact {
