@@ -36,24 +36,30 @@
     }
 
 }
+
 @media(max-width:600px) {
     :target {
         scroll-margin-top: 330px; 
     }
+    
     main {
-        
+        max-width: 100%;
         font-size: 1.5rem;
     }
+
     .banner {
         text-align: center;
     }
+
     .social-icon a>i {
         font-size: 2.5em;
         padding: 10px;
     }
+
     .about {
         max-width: 90%;
     }
+
     .about-content{
         padding: 20px;
         text-align: justify;
@@ -104,8 +110,14 @@
     }
 
     .contact {
+
+
+
         display: flex;
         flex-direction: column;
+        min-width: 90vw;
+        margin: 10px 0;
+        padding: 10px;
     }
 .form {
     width: 100%;
